@@ -1,9 +1,18 @@
-`styled-components` helps you write better CSS in React. It does so by allowing you to wrap all your component's styles into a neat, style-only component. 
+---
+title: Make your CSS dynamic with styled-components
+date: 2020-11-16
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+`styled-components` helps you write better CSS in React. It does so by allowing you to wrap all your component's styles into a neat, style-only component.
 
 So, instead of this:
 
 ```css
-.wrapper{
+.wrapper {
   font-family: sans-serif;
 }
 
@@ -20,7 +29,7 @@ and this
 
 ```jsx
 import React from "react";
-import './styles.css';
+import "./styles.css";
 
 export default function App() {
   return (
@@ -60,7 +69,7 @@ export default function App() {
 
 Which might not look like a big change. I know, I know! It looks like all that we did here was merge two files into a single one...
 
-However, by doing so we integrated our styles *into* `styled-components` and now that the library controls our CSS it can do all kinds of cool stuff like:
+However, by doing so we integrated our styles _into_ `styled-components` and now that the library controls our CSS it can do all kinds of cool stuff like:
 
 - Automatic inject critical CSS
 - Automatic vendor prefixing
@@ -72,7 +81,7 @@ Now, after this brief introduction to the wonders of `styled-components`, let's 
 
 ## Dynamic styling with `styled-components`
 
-The point of dynamic styling is saving time and writing less CSS. 
+The point of dynamic styling is saving time and writing less CSS.
 
 Imagine that you have a **primary** and a **secondary** button. They are very similar, but you want your primary button to have a flashy color so people actually click on it.
 
@@ -93,7 +102,7 @@ export default function App() {
 
 ```jsx
 const Button = styled.button`
-  background: ${props => props.primary ? "#6495ED" : "#2b2b2b"};
+  background: ${(props) => (props.primary ? "#6495ED" : "#2b2b2b")};
   color: white;
   font-size: 24px;
   padding: 12px;
@@ -109,9 +118,10 @@ You can do that by applying the same logic as the earlier example. But that can 
 
 ```jsx
 const Button = styled.button`
-  background: ${props => props.primary ? "#6495ED" : "#2b2b2b"};
-  border-radius: ${props => props.round ? "4px" : "0"};
-  box-shadow: ${props => props.shadow ? "2px 2px 2px rgba(0, 0, 0, 0.5)" : "none"};
+  background: ${(props) => (props.primary ? "#6495ED" : "#2b2b2b")};
+  border-radius: ${(props) => (props.round ? "4px" : "0")};
+  box-shadow: ${(props) =>
+    props.shadow ? "2px 2px 2px rgba(0, 0, 0, 0.5)" : "none"};
   color: white;
   font-size: 24px;
   padding: 12px;
@@ -137,7 +147,7 @@ const Button = styled.button(
 
 That way, instead of "importing" each prop on a per-line basis, you do it at the very beginning of your styles, so you can be 100% sure of what makes it dynamic!
 
-Just keep in mind that while this technique is cool and makes your styled components look leaner, needing extensive customization might be a sign of bad abstraction. 
+Just keep in mind that while this technique is cool and makes your styled components look leaner, needing extensive customization might be a sign of bad abstraction.
 
 So before adding a fourth (or fifth) dynamic style rule, make sure that you shouldn't really be creating a new styled component!
 

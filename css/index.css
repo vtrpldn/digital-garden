@@ -1,5 +1,9 @@
 @import "./fonts/fonts.css";
 
+:root {
+  --margin-base: 1.25rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +13,7 @@
 img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 1.25rem;
+  margin-bottom: var(--margin-base);
 }
 
 body {
@@ -52,15 +56,17 @@ h2 a:hover {
   border-bottom: solid 1px #000000;
 }
 
-p {
+p,
+ul {
   font-family: Graphik;
   font-size: 1rem;
   line-height: 1.8;
   width: 100%;
-  margin-bottom: 1.25rem;
+  margin-bottom: var(--margin-base);
   color: #444;
 }
-p + *:not(p) {
+p + h1,
+p + h2 {
   margin-top: 2rem;
 }
 p a {
@@ -83,8 +89,21 @@ a:visited {
 hr {
   border: none;
   border-top: solid 1px #e2e2e2;
+  margin: var(--margin-base) 0;
 }
 
+article,
 .page {
   max-width: 540px;
+}
+article header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+article header .tags {
+  margin-left: 10px;
+}
+article header .tags a {
+  margin-right: 5px;
 }
