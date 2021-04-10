@@ -73,6 +73,13 @@ p a:hover {
   border-bottom: solid 1px #000000;
 }
 
+a {
+  color: inherit;
+}
+a:visited {
+  opacity: 0.4;
+}
+
 hr {
   border: none;
   border-top: solid 1px #e2e2e2;
