@@ -1,5 +1,5 @@
 ---
-title: Simple chrome extensions that make my work a bit easier
+title: Simple Chrome Extensions That Make My Work a Bit Easier
 date: 2020-11-06
 tags:
   - css

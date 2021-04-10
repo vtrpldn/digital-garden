@@ -1,3 +1,12 @@
+---
+title: Grab Your Users Attention With the Focus-Within CSS Selector
+date: 2020-10-30
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
 Here's a neat little trick:
 
 You can use the `:focus-within` selector to style the parent of a focused element.

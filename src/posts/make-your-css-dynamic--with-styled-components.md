@@ -1,5 +1,5 @@
 ---
-title: Make your CSS dynamic with styled-components
+title: Make Your CSS Dynamic 🕺 With Styled Components
 date: 2020-11-16
 tags:
   - css

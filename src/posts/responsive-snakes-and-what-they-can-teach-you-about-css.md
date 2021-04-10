@@ -1,5 +1,5 @@
 ---
-title: Responsive snakes and what they can teach you about CSS
+title: Responsive Snakes! And What They Can Teach You About CSS 🐍
 date: 2020-11-18
 tags:
   - css
