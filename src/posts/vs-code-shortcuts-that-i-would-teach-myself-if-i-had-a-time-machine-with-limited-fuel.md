@@ -1,17 +1,24 @@
+---
+title: VS Code Shortcuts That I Would Teach Myself if I Had a Time Machine With Limited Fuel
+date: 2020-07-22
+tags:
+  - tutorial
+layout: layouts/post.njk
+---
 
 — "Hey, it's me. Listen up, I don't have much time."
 
 — "Wait, what?! What is happening?! Who are-How did you get in my house?! Wh-why do you look so much like me?!"
 
-— "I *am* you, you dum-dum. I came from the future *specially* to teach you some VS Code shortcuts. Now..." 
+— "I _am_ you, you dum-dum. I came from the future _specially_ to teach you some VS Code shortcuts. Now..."
 
-— "Wait. Are you *serious*? You could've brought back lottery results, stock market data, but you came all the way here to teach me freaking VS Code shortcuts?!"
+— "Wait. Are you _serious_? You could've brought back lottery results, stock market data, but you came all the way here to teach me freaking VS Code shortcuts?!"
 
 — "Listen, I really don't have much juice left on this thing... Just sit and pay attention please, this is impor..."
 
 — "Couldn't you have written these shortcuts, you know, on a piece of paper?"
 
-— "Shut up! This is important!" 
+— "Shut up! This is important!"
 
 — "Okay, okay..."
 
@@ -21,7 +28,7 @@
 
 — "Ooooh, we have hologram gifs in the future, nice example"
 
-— "I know, *right*? Also, **stop navigating the File Explorer with your mouse** altogether and just **use Command/Ctrl+Shift+E and arrow keys**, ok?"
+— "I know, _right_? Also, **stop navigating the File Explorer with your mouse** altogether and just **use Command/Ctrl+Shift+E and arrow keys**, ok?"
 
 ![Example gif](https://dev-to-uploads.s3.amazonaws.com/i/6wjl0po3vjkg8h1onzot.gif)
 
@@ -37,7 +44,7 @@
 
 ![Example 3 gif](https://dev-to-uploads.s3.amazonaws.com/i/1o6ppe9fulerd7h5z51j.gif)
 
-— "Hard to think of it as *a lot* of time but, yeah, okay… You're the one with the *time* machine"
+— "Hard to think of it as _a lot_ of time but, yeah, okay… You're the one with the _time_ machine"
 
 — "Use **Command/Ctrl+B to toggle the editor sidebar**, it will **save you some space** when coding on small screens"
 
@@ -51,9 +58,9 @@
 
 — "Roger that"
 
-— "**Use Command/Ctrl+Shift+L** whenever you need to *select all occurrences* of some text
+— "**Use Command/Ctrl+Shift+L** whenever you need to _select all occurrences_ of some text
 
-![Example gif](https://dev-to-uploads.s3.amazonaws.com/i/0t3jb9x2bfna6s47g1s7.gif) 
+![Example gif](https://dev-to-uploads.s3.amazonaws.com/i/0t3jb9x2bfna6s47g1s7.gif)
 
 — "Handy! Next one please."
 
@@ -67,7 +74,7 @@
 
 ![Example gif](https://dev-to-uploads.s3.amazonaws.com/i/bpzaslxon2eoyaoctply.gif)
 
-"Wait! I have *so many questions*! How did I even get a time machine? Does *this* creates a new parallel universe? Will  49ers ever win the Super Bowl again? Hey, wait! Waaait."
+"Wait! I have _so many questions_! How did I even get a time machine? Does _this_ creates a new parallel universe? Will 49ers ever win the Super Bowl again? Hey, wait! Waaait."
 
 ---
 
@@ -81,10 +88,10 @@ Gifs (with a hard G) were recorded with [Kap](https://getkap.co/) on a 680x416 s
 
 VS Code theme is [Cobalt2](https://github.com/wesbos/cobalt2-vscode) and the font is [Envy Code R](https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released).
 
---- 
+---
 
 ## Hey, let's connect 👋
 
-[Follow me on Twitter](https://twitter.com/paladini_dev) and let me know you liked this article! 
+[Follow me on Twitter](https://twitter.com/paladini_dev) and let me know you liked this article!
 
-And if you *really* liked it, make sure to share it with your friends, that'll help me a lot 😄
+And if you _really_ liked it, make sure to share it with your friends, that'll help me a lot 😄
