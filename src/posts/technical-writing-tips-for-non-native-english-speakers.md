@@ -1,3 +1,14 @@
+---
+title: Technical Writing Tips for Non-Native English Speakers
+date: 2020-07-29
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 I was born in Brazil so naturally I wrote my first articles and blog posts in Portuguese.
 
 Back then, the idea of being able to write a complete and easy to read article in English felt distant and pretty much impossible. Even though I could read them pretty well.

@@ -1,3 +1,14 @@
+---
+title: How To Create an Extremely Reusable Icon Component With React-SVG
+date: 2020-07-13
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 SVG can be super-duper fast _and_ accessible [you know that](https://css-tricks.com/accessible-svgs/).
 
 And the coolest thing about SVG in webdev is that CSS simply works with it, so you can do stuff like:

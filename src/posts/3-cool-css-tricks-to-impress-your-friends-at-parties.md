@@ -1,3 +1,14 @@
+---
+title: 3 Cool CSS Tricks to Impress Your Friends at Parties
+date: 2020-06-23
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 Wait, no one does that...
 
 But the tricks are still great, _I swear_. So let's start with an intro:

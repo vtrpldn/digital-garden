@@ -1,3 +1,14 @@
+---
+title: What the Heck Is GPT-3 Anyway?
+date: 2020-07-20
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 If you've been minimally active on the internet last week you've probably seen the term "GPT-3" all over the place.
 
 Be it in a JSX code generator, essay generators or in a text-to-UI Figma plugin, the results that GPT-3 seem to provide are impressive, if not a little bit scary.

@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 ---
 
+_This article was originally posted in the DEV Community._
+
 Here's a neat little trick:
 
 You can use the `:focus-within` selector to style the parent of a focused element.

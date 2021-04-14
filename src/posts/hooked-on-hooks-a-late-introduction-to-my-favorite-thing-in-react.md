@@ -1,3 +1,14 @@
+---
+title: Hooked on Hooks! A Late Introduction to My Favorite Thing in React
+date: 2020-06-30
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 Having launched in Feb 2019, it is safe to say hooks aren't a new, shiny, feature anymore.
 
 Since then hooks made working with React so much easier and fun that I couldn't help but write some words about it. But, at the time of writing this paragraph, I've realised that despite knowing _how_ to use it on my projects, I understand very little _about_ the subject itself.

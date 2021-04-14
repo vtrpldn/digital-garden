@@ -1,3 +1,14 @@
+---
+title: The react-three-fiber Zone, Episode 1
+date: 2020-08-05
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 I've got to a point in my career where I'm able to build good interfaces in a relatively short time frame.
 
 That may not sound super humble but it's just a consequence of doing the same thing for a long time, you start to get good at it.

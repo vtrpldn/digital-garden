@@ -1,4 +1,13 @@
-_Photo by Immo Wegmann on Unsplash_
+---
+title: Bullseye! 4 Ways To Center That Damn Div With CSS
+date: 2020-06-16
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
 
 If there is a thing that used to be unintuitive in CSS (or even ridiculously hard for beginners) is aligning stuff to both horizontal and vertical center. This visual little detail so easy to design usually meant a good amount of frustration for old-timey web developers.
 

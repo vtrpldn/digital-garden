@@ -1,3 +1,14 @@
+---
+title: How To Add a Three-Dimensional Pink Rubber Duck to Your Website With react-three-fiber
+date: 2020-08-13
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 I don't know about you but I _love_ learning stuff in a silly way.
 
 My 9 to 5 is much too serious already so whenever I'm programming for fun, I need to make it _fun_.

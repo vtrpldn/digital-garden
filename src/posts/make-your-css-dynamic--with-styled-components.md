@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 ---
 
+_This article was originally posted in the DEV Community._
+
 `styled-components` helps you write better CSS in React. It does so by allowing you to wrap all your component's styles into a neat, style-only component.
 
 So, instead of this:

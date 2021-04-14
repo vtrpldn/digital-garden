@@ -7,6 +7,8 @@ tags:
 layout: layouts/post.njk
 ---
 
+_This article was originally posted in the DEV Community._
+
 No time for introductions!
 
 I've been front-end-ing for a while.

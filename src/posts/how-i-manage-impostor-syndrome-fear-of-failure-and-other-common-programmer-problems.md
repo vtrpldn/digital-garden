@@ -1,11 +1,13 @@
 ---
 title: How I Manage Impostor Syndrome, Fear of Failure, and Other Common Programmer Problems
-date: 2020-10-23
+date: 2020-09-21
 tags:
   - css
   - codenewbie
 layout: layouts/post.njk
 ---
+
+_This article was originally posted in the DEV Community._
 
 Sometimes your own bugs are much harder to fix.
 

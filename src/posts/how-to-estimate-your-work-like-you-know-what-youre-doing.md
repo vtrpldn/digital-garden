@@ -1,3 +1,14 @@
+---
+title: How to Estimate Your Work Like You Know What You’re Doing
+date: 2020-09-21
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 I used to freelance a lot and coming up with estimates always got me anxious.
 
 Early in my career, all my estimates felt more like guesswork than science. And I'm sure that that feeling is very common with beginners.
@@ -28,9 +39,9 @@ Let's talk about how to do it.
 
 ## Reducing uncertainty before estimating
 
-Allow me to start with a short piece of advice, *ahem*.
+Allow me to start with a short piece of advice, _ahem_.
 
-**Never rush an estimate. Take all the time you need. One time  I had to work dozens of hours for free because I rushed and underestimated a project, don't be a fool like I once was.**
+**Never rush an estimate. Take all the time you need. One time I had to work dozens of hours for free because I rushed and underestimated a project, don't be a fool like I once was.**
 
 Ok, now, to reduce an estimate's uncertainty all you need to do is two simple (but not easy) things:
 
@@ -56,14 +67,16 @@ Ok, that's much better, and can break it down into a list like this:
 3.  Look into single product page references - 4 hours
 4.  UI meetings with the designer - 20 hours
 5.  Work on the implementation
-  * Front-end - 40 hours
-  * API integrations - 30 hours
+
+- Front-end - 40 hours
+- API integrations - 30 hours
+
 7.  Send weekly reports - 6 hours
 8.  Wrap up the implementation and complete the project - 12 hours
 
 We are making progress! It is easier to come up with individual estimates for those sub-tasks and sum them for the complete project estimation.
 
-> *⚠️ Even after splitting the project into tasks, it can be hard to come up with hourly estimates. Especially if you've recently begun freelancing. If that happens, it is better to err on the side of caution and be generous on your estimate.*
+> _⚠️ Even after splitting the project into tasks, it can be hard to come up with hourly estimates. Especially if you've recently begun freelancing. If that happens, it is better to err on the side of caution and be generous on your estimate._
 
 And remember, this list can be as big as you want and the more you break a project down the clearer it becomes.
 
@@ -116,18 +129,18 @@ All things considered, you are comfortable with the estimate you've come up with
 
 Eager to start working on the project, you crack open a cold beverage and congratulate yourself on the job well done. Well done!
 
---- 
+---
 
-I'd love to answer any questions that you have about the article and work estimates in general. 
+I'd love to answer any questions that you have about the article and work estimates in general.
 
 Be sure to leave them in the comments 😄
 
 Cover gif made with the fantastic [makewordart.com](https://makewordart.com/) and recorded with [Kap](https://getkap.co/)
 
---- 
+---
 
 ## Hey, let's connect 👋
 
-[Follow me on Twitter](https://twitter.com/paladini_dev) and let me know you liked this article! 
+[Follow me on Twitter](https://twitter.com/paladini_dev) and let me know you liked this article!
 
-And if you *really* liked it, make sure to share it with your friends, that'll help me a lot 😄
+And if you _really_ liked it, make sure to share it with your friends, that'll help me a lot 😄

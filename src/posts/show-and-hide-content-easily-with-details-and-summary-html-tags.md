@@ -1,3 +1,14 @@
+---
+title: Show and Hide Content Easily With details and summary HTML Tags
+date: 2020-09-30
+tags:
+  - css
+  - codenewbie
+layout: layouts/post.njk
+---
+
+_This article was originally posted in the DEV Community._
+
 Here's a neat little trick:
 
 You can use the `<details>` and `<summary>` HTML tags to create a simple accordion/collapsible UI.
