@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 Last week I got the 16 Week Streak badge 🥳
 
@@ -43,7 +43,7 @@ But hey, I have better advice than this personal anecdote!
 
 **Here are some consistency tips:**
 
-### 1. Have a clear writing goal
+## 1. Have a clear writing goal
 
 To be consistent you must first be aware of what consistency means for you. You have to have a clear goal in mind. My goal to publish an article every week, as long as I'm doing it I pass the consistency check.
 
@@ -51,7 +51,7 @@ One thing that helps is to have a somewhat flexible goal though. No matter how m
 
 For instance, my goal is to publish an article every Wednesday. I'm okay with publishing it Thursday or Friday if something happens. But Friday 11:59 PM is my absolute deadline.
 
-### 2. Use your idle time to think about your content
+## 2. Use your idle time to think about your content
 
 Ideas need some time to ferment.
 
@@ -59,7 +59,7 @@ Using your free time to actively think about your content makes it easier to put
 
 But don't push yourself too hard! You can do it whenever your mind is wandering, like when you're doing the dishes or taking a shower. You'll see _how much easier_ is to write down a concept after you allowed it to mature.
 
-### 3. Be ok with publishing imperfect work
+## 3. Be ok with publishing imperfect work
 
 There are weeks where I write excellent work and feel like a genius. Some other weeks I can't write anything that I'm happy with. In both cases, I publish what I wrote.
 
@@ -67,7 +67,7 @@ See, the single most important thing you need to do keep consistency is… to be
 
 I know that this sounds obvious but you _must_ keep momentum. It is much harder to go back to writing after you stopped, even if it was for a week only. So keep in mind that publishing imperfect is bad, but breaking your streak is much, much worse.
 
-### 4. Engage with the community
+## 4. Engage with the community
 
 Writing for the sake of writing will only get you so far.
 
@@ -75,17 +75,17 @@ Having a genuine interest in your reader makes the writing experience more satis
 
 **And here are some more general tips:**
 
-### 5. What seems obvious to you can be outstanding to beginners
+## 5. What seems obvious to you can be outstanding to beginners
 
 I started my [neat little tricks](https://dev.to/vtrpldn/series/8696) series focused on code newbies and I find great joy writing for that audience. And as long as there are beginners, there will be opportunities to teach, share, and learn.
 
-### 6. Don't be put off by other peoples' work
+## 6. Don't be put off by other peoples' work
 
 Another good thing to keep in mind is that even if there are a million articles about a certain subject, you should still write yours.
 
 But make it truly yours, let your personality shine and write it in a way that no one else could.
 
-### 7. Try not taking yourself too seriously
+## 7. Try not taking yourself too seriously
 
 One funny thing about this writing experience is that my most viewed articles are the ones I had the most fun writing.
 

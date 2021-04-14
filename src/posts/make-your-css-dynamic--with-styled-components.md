@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 `styled-components` helps you write better CSS in React. It does so by allowing you to wrap all your component's styles into a neat, style-only component.
 
@@ -112,7 +112,7 @@ const Button = styled.button`
 `;
 ```
 
-### "But what if my component needs a lot of customization?"
+## "But what if my component needs a lot of customization?"
 
 It may happen that your buttons need to be extra flexible, while still sharing some basic styles. Maybe you need to have a **primary** button that also has **rounded corners** and a fancy **box-shadow**.
 

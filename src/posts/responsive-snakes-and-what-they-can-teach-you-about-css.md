@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 "If a snake was responsive..." is my favorite webdev meme. Have a look below if you're not familiar with this _extremely important_ question.
 

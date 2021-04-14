@@ -15,6 +15,9 @@ img {
   height: auto;
   margin-bottom: var(--margin-base);
 }
+img[src*=".gif"] {
+  border-radius: 8px;
+}
 
 body {
   font-size: 16px;
@@ -63,7 +66,8 @@ h3 a {
 }
 
 p,
-ul {
+ul,
+ol {
   font-family: Graphik;
   font-size: 1rem;
   line-height: 1.8;
@@ -79,6 +83,11 @@ p a {
 }
 p a:hover {
   border-bottom: solid 1px #000000;
+}
+
+ul,
+ol {
+  padding-left: 20px;
 }
 
 a {

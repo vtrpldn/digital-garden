@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 I used to freelance a lot and coming up with estimates always got me anxious.
 

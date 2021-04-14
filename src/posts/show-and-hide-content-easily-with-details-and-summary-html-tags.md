@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 Here's a neat little trick:
 
@@ -76,7 +76,7 @@ And by using standard HTML tags you get great accessibility for free!
 
 You can go even further and transform these two tags into a powerful and, dare I say, [_extremely reusable_](https://dev.to/vtrpldn/series/8380) component.
 
-### Let's add some React to it! ⚛️
+## Let's add some React to it! ⚛️
 
 These two tags work very well with React's component composition pattern.
 
@@ -92,7 +92,7 @@ codesandboxEmbed 3fjee view=split module=/src/App.js
 
 This is a great component to have on your toolbelt for when you need to implement a few accordions quickly.
 
-### Thanks for checking out this neat little trick 👋
+## Thanks for checking out this neat little trick 👋
 
 I hope it comes in handy soon!
 

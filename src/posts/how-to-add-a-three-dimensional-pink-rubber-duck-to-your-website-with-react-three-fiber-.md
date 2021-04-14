@@ -2,12 +2,16 @@
 title: How To Add a Three-Dimensional Pink Rubber Duck to Your Website With react-three-fiber
 date: 2020-08-13
 tags:
-  - css
-  - codenewbie
+  - javascript
+  - react
+  - webdev
+  - tutorial
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-add-a-three-dimensional-pink-rubber-duck-to-your-website-with-react-three-fiber-4k3d) in the DEV Community._
+
+---
 
 I don't know about you but I _love_ learning stuff in a silly way.
 
@@ -23,7 +27,7 @@ So anyway, here's a look of what we are going to build today:
 
 codesandboxEmbed n33f2 view=preview
 
-# How to?
+## How to?
 
 > "If you wish to add a three-dimensional pink rubber duck to a website, you must first invent the universe." - Carl Sagan [sort of]
 
@@ -130,7 +134,7 @@ And _bam_, a spinning pink duck renders.
 
 Fan-tastic.
 
-# Final words
+## Final words
 
 I hope that this how-to sparkled some interest in react-three-fiber.
 

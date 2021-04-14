@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 If you've been minimally active on the internet last week you've probably seen the term "GPT-3" all over the place.
 
@@ -17,7 +17,7 @@ But most of the tweets promoting it don't dwell much on what it is or how it wor
 
 Please note that I'm a _complete layman_ in the subject so I'm not even trying to make any conclusion here, I'm only patching together bits of info about it so you don't have to.
 
-# So, yeah, what is this GPT-3 thing anyway?
+## So, yeah, what is this GPT-3 thing anyway?
 
 GPT stands for Generative Pretrained Transformer and the "3" means third generation. You can think of it as a tool that, given an initial sample of text, tries to predict what should come next.
 
@@ -25,13 +25,13 @@ GPT-3 was created by OpenAI, "an AI research and deployment company based in San
 
 Also, OpenAI has people like Sam Altman and Elon Musk, plus some impressive researchers like ‪Ilya Sutskever‬ and John Schulman behind it. So, yeah, they're pretty big.
 
-# Can I play with it right now?
+## Can I play with it right now?
 
 That's highly unlikely, OpenAI's API (which I presume is where GPT-3 runs on) is in a [free private beta](https://forms.office.com/Pages/ResponsePage.aspx?id=VsqMpNrmTkioFJyEllK8sx3ELsv0PEhHphhNz30FttVUNkYwTlNPMVI1V0lXNjExMlExUlc4SE5YSS4u) while they work on their pricing strategy.
 
 Their sign up form also mentions academic access, and you may try your luck, but it seems that you'd need to provide a solid use case or reasoning on _why_ you'd need it.
 
-# How does it work?
+## How does it work?
 
 I'm not qualified to answer this question, sorry.
 
@@ -49,7 +49,7 @@ twitterEmbed 1283927560435326976
 
 Oh, and if you want to dive really deep (I didn't) you can go ahead and check the GPT-3 paper itself: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165).
 
-# I'm a front-end developer, is it going to steal my job?
+## I'm a front-end developer, is it going to steal my job?
 
 twitterEmbed 1284095222939451393
 

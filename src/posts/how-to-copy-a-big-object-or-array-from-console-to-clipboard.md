@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 Have you ever found yourself trying to `Ctrl-C` a `console.log()` output, only to get mad when it doesn't really work with long Objects and Arrays?
 

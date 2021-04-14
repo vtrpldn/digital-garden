@@ -2,12 +2,16 @@
 title: Hooked on Hooks! A Late Introduction to My Favorite Thing in React
 date: 2020-06-30
 tags:
-  - css
-  - codenewbie
+  - react
+  - javascript
+  - webdev
+  - frontend
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/hooked-on-hooks-a-late-introduction-to-my-favorite-thing-in-react-1nfe) in the DEV Community._
+
+---
 
 Having launched in Feb 2019, it is safe to say hooks aren't a new, shiny, feature anymore.
 
@@ -23,7 +27,7 @@ So, let's learn something new together. Check out the questions below, reference
 
 Off we go!
 
-#From the beginning, what are hooks?
+## From the beginning, what are hooks?
 
 A hook, as a programming concept, is "a software or hardware feature included in order to simplify later additions or changes by a user".[1]
 
@@ -33,7 +37,7 @@ WordPress, for instance, relies heavily on its own kind of hooks for plugin and 
 
 The deal of hooks is _extensibility_ and making future changes easier. You can say that React Hooks extend your function components with cool new stuff the same way that plugins and themes extend the default WordPress experience.
 
-#Ok, cool, but why did React switch to hooks?
+## Ok, cool, but why did React switch to hooks?
 
 Well, React didn't _switch_ to Hooks, you can still use the ol' class-based components just fine. Hooks simply improve function components with some features that once were only available on class-based.
 
@@ -46,7 +50,7 @@ But opinions aside, React docs has a whole segment on the team's motivations for
 3. Hooks allowed handling side-effects in an isolated, feature specific way, instead of forcing multiple features logic to split based based on component lifecycle methods
 4. Function components with hooks are just straight up easier to understand than class-based components
 
-#That's nice, but what can I do with hooks?
+## That's nice, but what can I do with hooks?
 
 Well I thought you'd never ask!
 
@@ -105,7 +109,7 @@ Please be aware that this post will get a little dense from now on, so feel free
 
 youtubeEmbed EqqpcFj8G-s
 
-##Use useState() when you need to use state
+## Use useState() when you need to use state
 
 The `useState` hook is your function component alternative to `this.state` and `this.setState()` so if you're familiar with how state works the change is relatively simple to understand.
 
@@ -208,7 +212,7 @@ For instance, on `const [potato, setPotato] = useState("Tasty");` the `potato` v
 
 Next hook!
 
-##Use useEffect when you need some side-effects
+## Use useEffect when you need some side-effects
 
 _(If you repeat that three times with the terminal on fullscreen, Dan Abramov will appear next to you and help you debug your React code)_
 
@@ -290,7 +294,7 @@ See how with that second argument we can get more control of when the side-effec
 
 Just remember that if you skip this second argument the code inside `useEffect` will run whenever any prop or state changes (!) and that may significantly impact your app's performance, so remember to use it whenever possible!
 
-#Final words
+## Final words
 
 And that's a wrap! This article got somewhat bigger than I initially expected but I think it was for the best. 😄
 
@@ -298,13 +302,13 @@ I hope this introduction to React hooks serves you well, and good luck on your f
 
 Comments and feedback are super welcome!
 
-#References
+## References
 
 [1] http://www.catb.org/jargon/html/H/hook.html
 [2] https://reactjs.org/docs/hooks-intro.html#motivation
 [3] https://reactjs.org/docs/hooks-state.html
 
-#Thanks
+## Thanks
 
 Photo by [Ivar Asgaut](https://unsplash.com/@bo99) on Unsplash
 Draft feedbacks by [Cezar Augusto](https://twitter.com/cezaraugusto) and [Christian Kaisermann](https://twitter.com/kiwistian)

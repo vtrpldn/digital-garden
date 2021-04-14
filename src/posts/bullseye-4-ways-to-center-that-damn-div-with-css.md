@@ -3,11 +3,14 @@ title: Bullseye! 4 Ways To Center That Damn Div With CSS
 date: 2020-06-16
 tags:
   - css
-  - codenewbie
+  - html
+  - webdev
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/bullseye-4-ways-to-center-that-damn-div-with-css-9ad) in the DEV Community._
+
+---
 
 If there is a thing that used to be unintuitive in CSS (or even ridiculously hard for beginners) is aligning stuff to both horizontal and vertical center. This visual little detail so easy to design usually meant a good amount of frustration for old-timey web developers.
 
@@ -17,7 +20,7 @@ Oh, and we're not talking CSS Grid here because that is a complex, very well res
 
 Anyways, here we go:
 
-#The good, reliable way
+## The good, reliable way
 
 One good thing about Flexbox is that it feels like a very well thought standard. It can get a bit complex, yes, but if you give yourself a chance to actually understand how it works it empowers you to make very elegant and, well, very flexible layouts.
 
@@ -27,7 +30,7 @@ https://codepen.io/vtrpldn/pen/WNrGKKZ default-tab=css,result
 
 No drawbacks, no bells and whistles, just a very good CSS property used the way it was intended to. It is so good that you don't even need to add properties to the child element, but if you really wanted to you could do something like `.child { align-self: center; }` instead of `.parent { align-items: center; }`.
 
-#The classic align
+## The classic align
 
 If there is anything classic on web development is the good old `<table>` element.
 
@@ -39,7 +42,7 @@ https://codepen.io/vtrpldn/pen/WNrGKLd default-tab=css,result
 
 Not too shabby, right? It still is easy to read and understand but there is some bitterness in repurposing `display: table` and `display:table-cell` for only that but, whatever works, man.
 
-#The X/Y align
+## The X/Y align
 
 This one makes use of some absolute positioning magic and transform properties. It is not as pure as the Flexbox approach, but it is useful for cases where you want child elements to overlap each other naturally.
 
@@ -49,7 +52,7 @@ https://codepen.io/vtrpldn/pen/oNbzMOX default-tab=css,result
 
 The main difference of this technique is that, considering that the children are absolute, any new child that you add will fill the exact same space inside the parent. And by changing the `transform` values or playing around with `opacity` that might be super useful.
 
-#The line-height hack-align way
+## The line-height hack-align way
 
 This one feels the hackyest so far, but it works well if the parent height doesn't vary and the child is an inline element like a `<span>`, `<a>` or a text node... You know what, you're probably better off with any of the other solutions, but here is how it works anyway:
 
@@ -57,7 +60,7 @@ https://codepen.io/vtrpldn/pen/YzwGjoq default-tab=css,result
 
 I mean, it is suboptimal that you'd need to also change the line-height of the child if the parent height changed, but this is better than increasing the child's vertical padding pixel by pixel...
 
-# Conclusion
+## Conclusion
 
 A bit of well-used CSS can go a long way.
 

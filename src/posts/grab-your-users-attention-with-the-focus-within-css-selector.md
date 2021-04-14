@@ -2,12 +2,16 @@
 title: Grab Your Users Attention With the Focus-Within CSS Selector
 date: 2020-10-30
 tags:
+  - neat little tricks
   - css
-  - codenewbie
+  - html
+  - beginners
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/grab-your-user-s-attention-with-the-focus-within-css-selector-4d4) in the DEV Community._
+
+---
 
 Here's a neat little trick:
 
@@ -39,7 +43,7 @@ body:focus-within::before {
 }
 ```
 
-### `body:focus-within`
+## `body:focus-within`
 
 This selector will apply styles whenever there is **focus**... **within** the body!
 
@@ -47,7 +51,7 @@ Oh, and `:focus-within` works with any element. We're sticking with `body` only 
 
 You can be creative and come up with `.literallyAnyElement:focus-within` and use this selector as you please.
 
-### `body:focus-within::before` + absolute positioning
+## `body:focus-within::before` + absolute positioning
 
 In our example, that means that whenever any field is focused on the body, a `::before` pseudo-element will be created with those styles:
 
@@ -63,7 +67,7 @@ background-color: rgba(0, 0, 0, 0.7);
 
 The `content: ''` property is required for pseudo-elements and everything else are properties used to create a dark, transparent overlay that fills the whole screen!
 
-### Extra stuff to make it work properly
+## Extra stuff to make it work properly
 
 Keep in mind that you still need to make a couple of tweaks to make the overlay work perfectly.
 

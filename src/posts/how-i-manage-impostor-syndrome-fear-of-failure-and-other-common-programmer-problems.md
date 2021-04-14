@@ -2,12 +2,14 @@
 title: How I Manage Impostor Syndrome, Fear of Failure, and Other Common Programmer Problems
 date: 2020-09-21
 tags:
-  - css
-  - codenewbie
+  - career
+  - mental health
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-i-manage-impostor-syndrome-fear-of-failure-and-other-common-programmer-problems-3nk6) in the DEV Community._
+
+---
 
 Sometimes your own bugs are much harder to fix.
 

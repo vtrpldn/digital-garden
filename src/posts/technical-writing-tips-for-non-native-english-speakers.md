@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 I was born in Brazil so naturally I wrote my first articles and blog posts in Portuguese.
 
@@ -21,7 +21,7 @@ Now, I'm far from perfect, but I'm pretty happy with everything I've learned so 
 
 So, without further ado, here's some tips that helped me along the way:
 
-# Overcome the mental barrier
+## Overcome the mental barrier
 
 Writing in a language that you didn't grow up speaking can be hard by itself. But one thing that makes it worse is thinking that you need to be fluent to even start writing.
 
@@ -31,7 +31,7 @@ One thing that can happen is that after you're done you may not feel comfortable
 
 Worst case scenario you'll have a draft, and a slight increase in your English composition skills. Win-win!
 
-# Your first paragraphs will suck
+## Your first paragraphs will suck
 
 They will. Mine did, it takes some effort.
 
@@ -43,7 +43,7 @@ And whenever you feel down and think that you're not moving fast enough, remembe
 
 youtubeEmbed Gu8YiTeU9XU
 
-# Plan your text, but not too much
+## Plan your text, but not too much
 
 Remember that you are writing in a second language and oftentimes you will be translating and writing at the same time. Which can be quite tiresome.
 
@@ -53,7 +53,7 @@ Try writing down the core idea of your text and how you'll expand it. This will 
 
 But also, do not overplan it, write down some initial structure but don't get paralized by it. You can always change it if it doesn't sound right anymore.
 
-# Write first, correct later
+## Write first, correct later
 
 Writing takes a considerate amount of mental energy. Save some brain bandwidth and try not to worry if your grammar and spelling are perfect in your first draft.
 
@@ -61,7 +61,7 @@ Try your best to not be insecure while writing, focus on transferring the ideas 
 
 After you're done _then_ you should do grammar and spell check. There are quite a few free online tools that help you with that. I prefer writing in Google Docs as its native spell check is excellent.
 
-# "Quote" search when unsure
+## "Quote" search when unsure
 
 Have you ever written a sentence that, despite being grammarly correct, sounds a little bit off?
 
@@ -71,7 +71,7 @@ Whenever that happens I search it between quotation marks on Google.
 
 If it returns lots of results it probably means that the sentence is right. Bonus points if that sentence appears in a reputable source like a book or dictionary.
 
-# Simple is best
+## Simple is best
 
 Try not to be too flamboyant, ostentatious or overelaborate.
 
@@ -87,7 +87,7 @@ A good rule of thumb is that if after a single read you can't capture the paragr
 
 Remember that your goal is to transfer your knowledge to an audience, so try and make it as easy as possible for them.
 
-# If it is serious business, find a proofreader
+## If it is serious business, find a proofreader
 
 People usually don't mind small mistakes if your content is good enough. If someone points out a grammar fix in the comments, thank them, fix it and move on. It's not personal.
 

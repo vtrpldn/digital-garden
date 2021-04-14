@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 I don't know about you, but I find DEV Community's commitment to openness and transparency _fantastic_.
 
@@ -17,7 +17,7 @@ That's what I did last weekend and today I'm sharing some things I've learned.
 
 > Keep in mind that things might change (they did _[while I was writing](https://github.com/forem/forem/commit/bd6a996bce31dae85318573649f7f453f0d22445)_ this post 😄) so let me know in the comments if something is not up to date.
 
-##Make sure your article has a cover image
+## Make sure your article has a cover image
 
 [Reference](https://github.com/forem/forem/blob/master/app/javascript/articles/Feed.jsx#L18)
 
@@ -27,7 +27,7 @@ Here in DEV it has the extra benefit of making your post suitable to the first p
 
 Be aware that while having a cover image _will not_ guarantee that your post is featured as the first of the feed, not having one _will_ make it impossible.
 
-##Avoid using `#discuss` and `#watercooler` tags together
+## Avoid using `#discuss` and `#watercooler` tags together
 
 [Reference](https://github.com/forem/forem/blob/master/app/black_box/black_box.rb#L16)
 
@@ -43,7 +43,7 @@ With that in mind, it comes as no surprise that articles with the `#watercooler`
 
 So, if your discussion is more focused and serious go for `#discuss`. For just-for-fun chats that respect the code of conduct, `#watercooler` is that way to go.
 
-##Understand the "hotness score"
+## Understand the "hotness score"
 
 [Reference](https://github.com/forem/forem/blob/master/app/black_box/black_box.rb#L4)
 
@@ -58,17 +58,17 @@ At the time of writing, that hotness score takes a few things in consideration:
 
 I'm not going deep on numbers because, I'm not even kidding, the rules of the ranking [changed](https://github.com/forem/forem/commit/14e85493c1e457f57dec9d30fbf79933d85d6df5) _[twice](https://github.com/forem/forem/commit/1336d8c439d0d48867ed0b76fc9ef0013bf0c9e0)_ until I got to this part of the text. 🥴
 
-### How recent is the article
+## How recent is the article
 
 Article freshness is calculated by getting the difference between the article time of publish and DEV epoch date (2010-01-01 00:00:01).
 
 Freshly posted articles also get a score bonus that gradually decreases until the mark of 4 days. From then on it receives a penalty that decreases the weight of reactions on the score, so older posts get a bit less attention.
 
-### How many reactions it has
+## How many reactions it has
 
 This one is pretty straight-forward, a post with lots of ❤️, 🦄 and 🔖 get a bigger hotness score.
 
-### How big is the article comment score
+## How big is the article comment score
 
 An article comment score is the sum of all of its comments _own score_.
 
@@ -80,7 +80,7 @@ A comment score is based on:
 
 The comment also gets a bonus if it is bigger than a specific size or includes code samples.
 
-### How spammy the article looks
+## How spammy the article looks
 
 Article spamminess decreases the hotness score.
 

@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 EDIT: Ok, after publishing I realized that "nothing else" is an exaggeration. There is quite a bit of CSS too. But no other JS dependency 🙈
 
@@ -25,7 +25,7 @@ Here's a demo before we move into the details:
 
 codesandboxEmbed 7opo3 view=preview module=/src/App.js
 
-# How to make it
+## How to make it
 
 What makes this component so good is that it leverages good old CSS sorcery with the flexibility of React `children` prop. We only need two files to make it work: `Tooltip.css` and `Tooltip.js`.
 
@@ -85,7 +85,7 @@ Into this:
 </div>
 ```
 
-# How to use it
+## How to use it
 
 After learning how it works, the "how to use it" should be pretty simple to grasp.
 

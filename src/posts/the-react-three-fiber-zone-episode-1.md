@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 I've got to a point in my career where I'm able to build good interfaces in a relatively short time frame.
 

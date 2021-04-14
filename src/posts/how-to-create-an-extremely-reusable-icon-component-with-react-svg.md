@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-_This article was originally posted in the DEV Community._
+_This article was originally published in the DEV Community._
 
 SVG can be super-duper fast _and_ accessible [you know that](https://css-tricks.com/accessible-svgs/).
 
@@ -32,7 +32,7 @@ svg {
 
 However, we might have a problem here, this post is about React but individually importing SVG files in React is a pain... 😩
 
-# There's a better way
+## There's a better way
 
 You can leverage the CSS styling features of SVG with React components by using a library called `react-svg`. This library works by fetching, caching and inlining your SVG icons so you only need to worry about styling them.
 
@@ -77,7 +77,7 @@ Can you see the beauty of it? No more fumbling with icon imports every time you 
 
 Now, let's go a bit further with this Icon component thingy and make it even more useful.
 
-# Give it some style
+## Give it some style
 
 Did you see how we are using the `name` prop to fetch the right icon file? We can do the same thing for picking the right color and size of that icon.
 
