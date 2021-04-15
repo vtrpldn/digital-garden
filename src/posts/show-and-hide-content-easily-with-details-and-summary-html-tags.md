@@ -2,12 +2,16 @@
 title: Show and Hide Content Easily With details and summary HTML Tags
 date: 2020-09-30
 tags:
+  - neat little tricks
+  - html
   - css
-  - codenewbie
+  - webdev
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/show-and-hide-content-easily-with-details-and-summary-html-tags-3eif) in the DEV Community._
+
+---
 
 Here's a neat little trick:
 

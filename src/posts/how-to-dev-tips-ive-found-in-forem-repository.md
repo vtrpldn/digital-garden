@@ -2,12 +2,14 @@
 title: How to DEV | Tips I've found in Forem repository
 date: 2020-08-26
 tags:
-  - css
-  - codenewbie
+  - dev.to
+  - opensource
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-dev-tips-i-ve-found-in-forem-repository-1iff) in the DEV Community._
+
+---
 
 I don't know about you, but I find DEV Community's commitment to openness and transparency _fantastic_.
 

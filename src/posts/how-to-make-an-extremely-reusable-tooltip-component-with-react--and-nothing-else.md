@@ -2,12 +2,16 @@
 title: How To Make an Extremely Reusable Tooltip Component With React — And Nothing Else
 date: 2020-08-19
 tags:
+  - react
+  - javascript
+  - webdev
   - css
-  - codenewbie
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-make-an-extremely-reusable-tooltip-component-with-react-and-nothing-else-3pnk) in the DEV Community._
+
+---
 
 EDIT: Ok, after publishing I realized that "nothing else" is an exaggeration. There is quite a bit of CSS too. But no other JS dependency 🙈
 

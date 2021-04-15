@@ -1,16 +1,22 @@
-{% for post in postslist | reverse %}
-  <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-  {% for tag in post.data.tags | filterTagList %}
-    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+<div class="postlist">
+  {% for post in postslist | reverse %}
+    <section class="postlist__item">
+      <header class="postlist__header">
+        <time class="postlist__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+        {% for tag in post.data.tags | filterTagList %}
+          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+        {% endfor %}
+      </header>
+      <h2>
+        <a href="{{ post.url | url }}" class="postlist-link">
+          {% if post.data.title %}
+            {{ post.data.title }}
+          {% else %}
+            {{ post.url }}
+          {% endif %}
+        </a>
+      </h2>
+    </section>
   {% endfor %}
-  <h2>
-    <a href="{{ post.url | url }}" class="postlist-link">
-      {% if post.data.title %}
-        {{ post.data.title }}
-      {% else %}
-        {{ post.url }}
-      {% endif %}
-    </a>
-  </h2>
-{% endfor %}
+</div>

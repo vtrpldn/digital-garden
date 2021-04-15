@@ -2,12 +2,15 @@
 title: What the Heck Is GPT-3 Anyway?
 date: 2020-07-20
 tags:
-  - css
-  - codenewbie
+  - machinelearning
+  - ai
+  - news
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/what-the-heck-is-gpt-3-anyway-45pc) in the DEV Community._
+
+---
 
 If you've been minimally active on the internet last week you've probably seen the term "GPT-3" all over the place.
 

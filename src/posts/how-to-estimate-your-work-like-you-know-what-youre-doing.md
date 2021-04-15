@@ -2,12 +2,15 @@
 title: How to Estimate Your Work Like You Know What You’re Doing
 date: 2020-09-21
 tags:
-  - css
-  - codenewbie
+  - career
+  - beginners
+  - freelancing
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-estimate-your-work-like-you-know-what-you-re-doing-oc8) in the DEV Community._
+
+---
 
 I used to freelance a lot and coming up with estimates always got me anxious.
 

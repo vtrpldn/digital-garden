@@ -3,7 +3,13 @@ title: VS Code Shortcuts That I Would Teach Myself if I Had a Time Machine With 
 date: 2020-07-22
 tags:
   - tutorial
+  - vs code
+  - productivity
 layout: layouts/post.njk
+---
+
+_This article was [originally published](https://dev.to/vtrpldn/vs-code-shortcuts-that-i-would-teach-myself-if-i-had-a-time-machine-with-limited-fuel-36md) in the DEV Community._
+
 ---
 
 — "Hey, it's me. Listen up, I don't have much time."

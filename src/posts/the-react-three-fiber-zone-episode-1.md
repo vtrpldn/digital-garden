@@ -2,12 +2,15 @@
 title: The react-three-fiber Zone, Episode 1
 date: 2020-08-05
 tags:
-  - css
-  - codenewbie
+  - react
+  - javascript
+  - threejs
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/the-react-three-fiber-zone-episode-1-52ia) in the DEV Community._
+
+---
 
 I've got to a point in my career where I'm able to build good interfaces in a relatively short time frame.
 

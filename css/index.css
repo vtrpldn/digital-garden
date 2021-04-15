@@ -122,3 +122,11 @@ article header .tags {
 article header .tags a {
   margin-right: 5px;
 }
+
+.postlist__item {
+  margin-bottom: 50px;
+}
+.postlist__header {
+}
+.postlist__date {
+}

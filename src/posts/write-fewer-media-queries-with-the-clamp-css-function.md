@@ -2,12 +2,13 @@
 title: Write Fewer Media Queries With the clamp() CSS Function
 date: 2020-09-07
 tags:
+  - neat little tricks
   - css
   - codenewbie
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/write-fewer-media-queries-with-the-clamp-css-function-2cl7) in the DEV Community._
 
 Here's a neat little trick:
 

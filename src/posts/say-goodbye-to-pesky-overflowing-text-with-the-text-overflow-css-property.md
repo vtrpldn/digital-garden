@@ -2,12 +2,15 @@
 title: Say Goodbye to Pesky Overflowing Text With the text-overflow CSS Property
 date: 2020-10-14
 tags:
+  - html
   - css
-  - codenewbie
+  - webdev
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/say-goodbye-to-pesky-overflowing-text-with-the-text-overflow-css-property-1jee) in the DEV Community._
+
+---
 
 Here's a neat little trick:
 

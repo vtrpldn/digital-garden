@@ -3,11 +3,15 @@ title: Responsive Snakes! And What They Can Teach You About CSS 🐍
 date: 2020-11-18
 tags:
   - css
+  - html
+  - webdev
   - codenewbie
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/responsive-snakes-and-what-they-can-teach-us-about-css-1o02) in the DEV Community._
+
+---
 
 "If a snake was responsive..." is my favorite webdev meme. Have a look below if you're not familiar with this _extremely important_ question.
 

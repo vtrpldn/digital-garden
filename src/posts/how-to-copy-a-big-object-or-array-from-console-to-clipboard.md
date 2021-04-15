@@ -2,12 +2,16 @@
 title: How to Copy a Big Object or Array From Console to Clipboard
 date: 2020-09-03
 tags:
-  - css
-  - codenewbie
+  - neat little tricks
+  - javascript
+  - beginners
+  - webdev
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-copy-a-big-object-or-array-from-console-to-clipboard-3hi) in the DEV Community._
+
+---
 
 Have you ever found yourself trying to `Ctrl-C` a `console.log()` output, only to get mad when it doesn't really work with long Objects and Arrays?
 

@@ -2,12 +2,16 @@
 title: I Got the 16 Week Streak Badge. Here’s Everything I Learned About Consistency
 date: 2020-10-07
 tags:
-  - css
-  - codenewbie
+  - career
+  - writing
+  - meta
+  - consistency
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/i-got-the-16-week-streak-badge-here-s-everything-i-learned-about-consistency-2nna) in the DEV Community._
+
+---
 
 Last week I got the 16 Week Streak badge 🥳
 

@@ -2,12 +2,16 @@
 title: How To Create an Extremely Reusable Icon Component With React-SVG
 date: 2020-07-13
 tags:
-  - css
-  - codenewbie
+  - react
+  - javascript
+  - webdev
+  - tutorial
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/how-to-create-an-extremelly-reusable-icon-component-with-react-svg-1a7) in the DEV Community._
+
+---
 
 SVG can be super-duper fast _and_ accessible [you know that](https://css-tricks.com/accessible-svgs/).
 

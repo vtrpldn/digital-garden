@@ -2,12 +2,14 @@
 title: Technical Writing Tips for Non-Native English Speakers
 date: 2020-07-29
 tags:
-  - css
-  - codenewbie
+  - career
+  - writing
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/technical-writing-tips-for-non-native-english-speakers-4fno) in the DEV Community._
+
+---
 
 I was born in Brazil so naturally I wrote my first articles and blog posts in Portuguese.
 

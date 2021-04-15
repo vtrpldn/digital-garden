@@ -2,12 +2,15 @@
 title: Simple Chrome Extensions That Make My Work a Bit Easier
 date: 2020-11-06
 tags:
-  - css
-  - codenewbie
+  - webdev
+  - workflow
+  - html
 layout: layouts/post.njk
 ---
 
-_This article was originally published in the DEV Community._
+_This article was [originally published](https://dev.to/vtrpldn/simple-chrome-extensions-that-make-my-work-a-bit-easier-421b) in the DEV Community._
+
+---
 
 No time for introductions!
 
