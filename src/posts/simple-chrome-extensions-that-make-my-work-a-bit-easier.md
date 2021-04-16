@@ -5,7 +5,7 @@ tags:
   - webdev
   - workflow
   - html
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/simple-chrome-extensions-that-make-my-work-a-bit-easier-421b) in the DEV Community._

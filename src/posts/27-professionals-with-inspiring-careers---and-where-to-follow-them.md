@@ -4,7 +4,7 @@ date: 2020-07-07
 tags:
   - career
   - inspiration
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/27-professionals-with-inspiring-careers-and-where-to-follow-them-13gi) in the DEV Community._

@@ -4,7 +4,7 @@ date: 2020-08-26
 tags:
   - dev.to
   - opensource
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-dev-tips-i-ve-found-in-forem-repository-1iff) in the DEV Community._

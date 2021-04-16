@@ -5,7 +5,7 @@ tags:
   - career
   - beginners
   - freelancing
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-estimate-your-work-like-you-know-what-you-re-doing-oc8) in the DEV Community._

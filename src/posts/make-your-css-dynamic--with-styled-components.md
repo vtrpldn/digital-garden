@@ -6,7 +6,7 @@ tags:
   - styled components
   - css
   - javascript
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/styled-components-dealing-with-dynamic-styling-1ja3) in the DEV Community._

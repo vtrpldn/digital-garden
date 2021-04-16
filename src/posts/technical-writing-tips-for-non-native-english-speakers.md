@@ -4,7 +4,7 @@ date: 2020-07-29
 tags:
   - career
   - writing
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/technical-writing-tips-for-non-native-english-speakers-4fno) in the DEV Community._

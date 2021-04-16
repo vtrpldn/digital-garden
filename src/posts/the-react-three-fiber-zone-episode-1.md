@@ -5,7 +5,7 @@ tags:
   - react
   - javascript
   - threejs
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/the-react-three-fiber-zone-episode-1-52ia) in the DEV Community._

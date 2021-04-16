@@ -5,7 +5,7 @@ tags:
   - tutorial
   - vs code
   - productivity
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/vs-code-shortcuts-that-i-would-teach-myself-if-i-had-a-time-machine-with-limited-fuel-36md) in the DEV Community._

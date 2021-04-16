@@ -5,7 +5,7 @@ tags:
   - html
   - css
   - webdev
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/say-goodbye-to-pesky-overflowing-text-with-the-text-overflow-css-property-1jee) in the DEV Community._

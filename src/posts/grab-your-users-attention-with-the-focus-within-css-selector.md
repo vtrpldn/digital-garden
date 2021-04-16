@@ -6,7 +6,7 @@ tags:
   - css
   - html
   - beginners
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/grab-your-user-s-attention-with-the-focus-within-css-selector-4d4) in the DEV Community._

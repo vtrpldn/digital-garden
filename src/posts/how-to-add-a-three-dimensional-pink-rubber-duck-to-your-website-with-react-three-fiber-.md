@@ -6,7 +6,7 @@ tags:
   - react
   - webdev
   - tutorial
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-add-a-three-dimensional-pink-rubber-duck-to-your-website-with-react-three-fiber-4k3d) in the DEV Community._

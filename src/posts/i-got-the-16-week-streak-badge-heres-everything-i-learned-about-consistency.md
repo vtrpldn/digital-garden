@@ -6,7 +6,7 @@ tags:
   - writing
   - meta
   - consistency
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/i-got-the-16-week-streak-badge-here-s-everything-i-learned-about-consistency-2nna) in the DEV Community._

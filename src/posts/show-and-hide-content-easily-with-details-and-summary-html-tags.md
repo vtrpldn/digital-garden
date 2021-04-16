@@ -6,7 +6,7 @@ tags:
   - html
   - css
   - webdev
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/show-and-hide-content-easily-with-details-and-summary-html-tags-3eif) in the DEV Community._

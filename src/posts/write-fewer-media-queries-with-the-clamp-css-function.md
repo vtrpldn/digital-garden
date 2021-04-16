@@ -5,7 +5,7 @@ tags:
   - neat little tricks
   - css
   - codenewbie
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/write-fewer-media-queries-with-the-clamp-css-function-2cl7) in the DEV Community._

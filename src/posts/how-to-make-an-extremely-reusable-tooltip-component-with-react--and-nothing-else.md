@@ -6,7 +6,7 @@ tags:
   - javascript
   - webdev
   - css
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-make-an-extremely-reusable-tooltip-component-with-react-and-nothing-else-3pnk) in the DEV Community._

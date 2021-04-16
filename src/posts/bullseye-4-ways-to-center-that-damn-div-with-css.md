@@ -5,7 +5,7 @@ tags:
   - css
   - html
   - webdev
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/bullseye-4-ways-to-center-that-damn-div-with-css-9ad) in the DEV Community._

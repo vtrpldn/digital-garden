@@ -6,7 +6,7 @@ tags:
   - javascript
   - webdev
   - frontend
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/hooked-on-hooks-a-late-introduction-to-my-favorite-thing-in-react-1nfe) in the DEV Community._

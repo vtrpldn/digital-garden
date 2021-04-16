@@ -6,7 +6,7 @@ tags:
   - javascript
   - webdev
   - tutorial
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-create-an-extremelly-reusable-icon-component-with-react-svg-1a7) in the DEV Community._

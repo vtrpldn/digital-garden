@@ -5,7 +5,7 @@ tags:
   - machinelearning
   - ai
   - news
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/what-the-heck-is-gpt-3-anyway-45pc) in the DEV Community._

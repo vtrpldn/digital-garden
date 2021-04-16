@@ -6,7 +6,7 @@ tags:
   - html
   - webdev
   - codenewbie
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/responsive-snakes-and-what-they-can-teach-us-about-css-1o02) in the DEV Community._

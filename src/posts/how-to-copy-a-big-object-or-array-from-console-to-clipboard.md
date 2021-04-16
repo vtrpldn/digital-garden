@@ -6,7 +6,7 @@ tags:
   - javascript
   - beginners
   - webdev
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-to-copy-a-big-object-or-array-from-console-to-clipboard-3hi) in the DEV Community._

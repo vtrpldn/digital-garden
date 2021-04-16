@@ -5,7 +5,7 @@ tags:
   - codenewbie
   - css
   - tricks
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/3-cool-css-tricks-to-impress-your-friends-at-parties-k19) in the DEV Community._

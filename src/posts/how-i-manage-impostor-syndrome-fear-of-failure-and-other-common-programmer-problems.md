@@ -4,7 +4,7 @@ date: 2020-09-21
 tags:
   - career
   - mental health
-layout: layouts/post.njk
+layout: post
 ---
 
 _This article was [originally published](https://dev.to/vtrpldn/how-i-manage-impostor-syndrome-fear-of-failure-and-other-common-programmer-problems-3nk6) in the DEV Community._
