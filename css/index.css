@@ -130,3 +130,16 @@ article header .tags a {
 }
 .postlist__date {
 }
+
+nav {
+  margin-bottom: var(--margin-base);
+}
+
+blockquote {
+  padding: 20px;
+  background: #fbfbfb;
+  margin-bottom: 20px;
+}
+blockquote p {
+  margin-bottom: 0;
+}
