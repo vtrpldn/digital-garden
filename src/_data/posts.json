@@ -34,5 +34,68 @@
       "tags": ["Circuit engineering blog"]
     },
     "date": "2021-02-12"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/wordpress-e-seguro/",
+    "data": {
+      "title": "WordPress é Seguro?",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-09-16"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/grandes-sites-que-rodam-wordpress/",
+    "data": {
+      "title": "Grandes Sites do Mundo que Rodam WordPress!",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-09-13"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/wordpress-muito-alem-blogs-sites-institucionais/",
+    "data": {
+      "title": "WordPress: Muito Além de Blogs e Sites Institucionais",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-09-09"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/por-que-participar-eventos-importante/",
+    "data": {
+      "title": "Por que Participar de Eventos é Importante?",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-09-06"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/fazer-loja-wordpress/",
+    "data": {
+      "title": "Como Fazer uma Loja com WordPress?",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-09-02"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/wordpress-rapido/",
+    "data": {
+      "title": "WordPress é Rápido?",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-08-25"
+  },
+  {
+    "url": "https://riodejaneiro.wordcamp.org/2016/aprender-wordpress-carreira/",
+    "data": {
+      "title": "Aprenda Mais Sobre WordPress e Impulsione sua Carreira!",
+      "external": "true",
+      "tags": ["WordCamp 2016"]
+    },
+    "date": "2016-08-20"
   }
 ]
