@@ -5,6 +5,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const externalPosts = require("./src/_data/posts.json");
 
 module.exports = function (eleventyConfig) {
   // Add plugins
@@ -19,9 +20,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "LLL yyyy"
-    );
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLL yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
@@ -36,6 +35,20 @@ module.exports = function (eleventyConfig) {
     }
 
     return array.slice(0, n);
+  });
+
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter("extendedPostlist", (postlist) => {
+    const formattedExternalPosts = externalPosts.map((p) => {
+      p.date = new Date(p.date);
+      return p;
+    });
+
+    const allPosts = [...formattedExternalPosts, ...postlist];
+
+    return allPosts.sort(function (a, b) {
+      return new Date(b.date) - new Date(a.date);
+    });
   });
 
   // Return the smallest number argument

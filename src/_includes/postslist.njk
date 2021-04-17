@@ -1,5 +1,5 @@
 <div class="postlist">
-  {% for post in postslist | reverse %}
+  {% for post in postslist | reverse | extendedPostlist %}
     <section class="postlist__item">
       <header class="postlist__header">
         <time class="postlist__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
@@ -9,7 +9,7 @@
         {% endfor %}
       </header>
       <h2>
-        <a href="{{ post.url | url }}" class="postlist-link">
+        <a href="{{ post.url | url }}" class="postlist-link" {% if post.data.external %} target="_blank" {% endif %}>
           {% if post.data.title %}
             {{ post.data.title }}
           {% else %}
