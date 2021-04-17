@@ -37,8 +37,9 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
-  // Get the first `n` elements of a collection.
-  eleventyConfig.addFilter("extendedPostlist", (postlist) => {
+  eleventyConfig.addCollection("extendedPostlist", function (collectionApi) {
+    const postlist = collectionApi.getFilteredByTag("posts");
+
     const formattedExternalPosts = externalPosts.map((p) => {
       p.date = new Date(p.date);
       return p;

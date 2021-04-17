@@ -1,5 +1,5 @@
 <div class="postlist">
-  {% for post in postslist | reverse | extendedPostlist %}
+  {% for post in postslist %}
     <section class="postlist__item">
       <header class="postlist__header">
         <time class="postlist__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>

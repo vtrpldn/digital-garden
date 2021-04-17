@@ -2,6 +2,7 @@
 title: One Piece of Advice for All My Programmer Friends
 date: 2019-02-28
 tags:
+  - everythingbutcode
   - career
 layout: post
 ---
