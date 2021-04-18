@@ -16,10 +16,31 @@
     <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
   </head>
   <body>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+
+    <script>
+      const emojiList = ['🧄', '🍅', '🧅', '🥦', '🌱', '🥑', '🥥', '🌶', '☘️', '🌵', '🌻', '🐝', '🐛', '🌾', '🍄', '🍋', '🍉', '🌷'];
+      const emojiElement = document.querySelector('.home-emoji')
+
+      function updateEmoji() {
+        if (Math.floor(1 + Math.random() * 100) === 99) {
+          emojiElement.innerHTML = '👁‍🗨🐽👁‍🗨'; // goth pig is watching you
+          return
+        }
+
+        emojiElement.innerHTML = emojiList[Math.floor(Math.random() * emojiList.length)];
+      }
+
+      updateEmoji()
+
+      emojiElement.addEventListener('click', function(e) {
+        updateEmoji()
+      })
+    </script>
   </body>
 </html>

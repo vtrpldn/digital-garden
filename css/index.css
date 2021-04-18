@@ -148,3 +148,8 @@ blockquote {
 blockquote p {
   margin-bottom: 0;
 }
+
+.home-emoji {
+  cursor: pointer;
+  user-select: none;
+}
