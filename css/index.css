@@ -1,6 +1,9 @@
 @import "./fonts/fonts.css";
 
 :root {
+  --primary-color: #e05e00;
+  --secondary-color: #fff9f4;
+  --text-color: #121212;
   --margin-base: 1.25rem;
 }
 
@@ -20,6 +23,8 @@ img[src*=".gif"] {
 }
 
 body {
+  color: var(--primary-color);
+  background: var(--secondary-color);
   font-size: 16px;
   font-family: Graphik, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,21 +53,20 @@ h3 {
 }
 h2 a,
 h3 a {
-  color: #000000;
   text-decoration: none;
   padding: 2px 0;
 }
 h2 a:hover,
 h3 a:hover {
-  border-bottom: solid 1px #000000;
+  border-bottom: solid 1px;
 }
 h3 {
   font-family: Graphik, sans-serif;
   font-size: clamp(1.2rem, 1rem + 2vw, 1.5rem);
-  color: #444;
+  color: var(--text-color);
 }
 h3 a {
-  color: #444;
+  color: var(--text-color);
 }
 
 p,
@@ -73,16 +77,15 @@ ol {
   line-height: 1.8;
   width: 100%;
   margin-bottom: var(--margin-base);
-  color: #444;
+  color: var(--text-color);
 }
 p a {
-  color: #000000;
   text-decoration: none;
-  border-bottom: solid 1px #444;
+  border-bottom: solid 1px;
   padding: 2px 0;
 }
 p a:hover {
-  border-bottom: solid 1px #000000;
+  border-bottom: solid 1px;
 }
 
 ul,
@@ -127,17 +130,19 @@ article header .tags a {
   margin-bottom: 50px;
 }
 .postlist__header {
+  color: var(--text-color);
 }
 .postlist__date {
 }
 
-nav {
+nav.primary-menu {
   margin-bottom: var(--margin-base);
+  color: var(--text-color);
 }
 
 blockquote {
   padding: 20px;
-  background: #fbfbfb;
+  background: rgba(0, 0, 0, 0.02);
   margin-bottom: 20px;
 }
 blockquote p {
