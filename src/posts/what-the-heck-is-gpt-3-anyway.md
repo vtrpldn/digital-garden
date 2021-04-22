@@ -48,15 +48,15 @@ And finally, Delian Asparouhov, a principal at Founders Fund, also shared his [Q
 
 Also, he seems to be losing his mind a little bit.
 
-twitterEmbed 1283927560435326976
+{% twitter "1283927560435326976" %}
 
 Oh, and if you want to dive really deep (I didn't) you can go ahead and check the GPT-3 paper itself: [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165).
 
 ## I'm a front-end developer, is it going to steal my job?
 
-twitterEmbed 1284095222939451393
+{% twitter "1284095222939451393" %}
 
-twitterEmbed 1282676454690451457
+{% twitter "1282676454690451457" %}
 
 Not right now, I don't think so.
 

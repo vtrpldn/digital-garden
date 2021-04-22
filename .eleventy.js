@@ -26,6 +26,10 @@ module.exports = function (eleventyConfig) {
     </iframe>`;
   });
 
+  eleventyConfig.addShortcode("twitter", function (id) {
+    return `<blockquote class="twitter-tweet"><a href="https://twitter.com/x/status/${id}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
+  });
+
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
 

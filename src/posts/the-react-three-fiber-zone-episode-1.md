@@ -20,7 +20,7 @@ However, despite being capable of building really good UI, I've never built some
 
 I'm talking about this kind of stuff:
 
-twitterEmbed 1288861216073490432
+{% twitter "1288861216073490432" %}
 
 _Wow_, right?
 
