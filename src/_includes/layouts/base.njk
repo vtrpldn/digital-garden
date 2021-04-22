@@ -24,23 +24,29 @@
     </main>
 
     <script>
-      const emojiList = ['🧄', '🍅', '🧅', '🥦', '🌱', '🥑', '🥥', '🌶', '☘️', '🌵', '🌻', '🐝', '🐛', '🌾', '🍄', '🍋', '🍉', '🌷'];
-      const emojiElement = document.querySelector('.home-emoji')
+      function scriptyScripts() {
+        const emojiList = ['🧄', '🍅', '🧅', '🥦', '🌱', '🥑', '🥥', '🌶', '☘️', '🌵', '🌻', '🐝', '🐛', '🌾', '🍄', '🍋', '🍉', '🌷'];
+        const emojiElement = document.querySelector('.home-emoji')
 
-      function updateEmoji() {
-        if (Math.floor(1 + Math.random() * 100) === 99) {
-          emojiElement.innerHTML = '👁‍🗨🐽👁‍🗨'; // goth pig is watching you
-          return
+        if (!emojiElement) return
+
+        function updateEmoji() {
+          if (Math.floor(1 + Math.random() * 100) === 99) {
+            emojiElement.innerHTML = '👁‍🗨🐽👁‍🗨'; // goth pig is watching you
+            return
+          }
+
+          emojiElement.innerHTML = emojiList[Math.floor(Math.random() * emojiList.length)];
         }
 
-        emojiElement.innerHTML = emojiList[Math.floor(Math.random() * emojiList.length)];
+        updateEmoji()
+
+        emojiElement.addEventListener('click', function(e) {
+          updateEmoji()
+        })
       }
 
-      updateEmoji()
-
-      emojiElement.addEventListener('click', function(e) {
-        updateEmoji()
-      })
+      scriptyScripts()
     </script>
   </body>
 </html>
