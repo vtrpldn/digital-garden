@@ -26,7 +26,7 @@ One good thing about Flexbox is that it feels like a very well thought standard.
 
 That being said, here's how you center stuff with Flexbox.
 
-https://codepen.io/vtrpldn/pen/WNrGKKZ default-tab=css,result
+{% codepen "WNrGKKZ" "default-tab=css,result" %}
 
 No drawbacks, no bells and whistles, just a very good CSS property used the way it was intended to. It is so good that you don't even need to add properties to the child element, but if you really wanted to you could do something like `.child { align-self: center; }` instead of `.parent { align-items: center; }`.
 
@@ -38,7 +38,7 @@ Other than it's main use of creating tables, `<table>` used to be repurposed on 
 
 Here's how you'd do it back in the day -- and how you probably still wanna do it in email templates because, let's be honest, Gmail won't fully support Flexbox anytime soon...
 
-https://codepen.io/vtrpldn/pen/WNrGKLd default-tab=css,result
+{% codepen "WNrGKLd" "default-tab=css,result" %}
 
 Not too shabby, right? It still is easy to read and understand but there is some bitterness in repurposing `display: table` and `display:table-cell` for only that but, whatever works, man.
 
@@ -48,7 +48,7 @@ This one makes use of some absolute positioning magic and transform properties. 
 
 Let's take a look at the example:
 
-https://codepen.io/vtrpldn/pen/oNbzMOX default-tab=css,result
+{% codepen "oNbzMOX" "default-tab=css,result" %}
 
 The main difference of this technique is that, considering that the children are absolute, any new child that you add will fill the exact same space inside the parent. And by changing the `transform` values or playing around with `opacity` that might be super useful.
 
@@ -56,7 +56,7 @@ The main difference of this technique is that, considering that the children are
 
 This one feels the hackyest so far, but it works well if the parent height doesn't vary and the child is an inline element like a `<span>`, `<a>` or a text node... You know what, you're probably better off with any of the other solutions, but here is how it works anyway:
 
-https://codepen.io/vtrpldn/pen/YzwGjoq default-tab=css,result
+{% codepen "YzwGjoq" "default-tab=css,result" %}
 
 I mean, it is suboptimal that you'd need to also change the line-height of the child if the parent height changed, but this is better than increasing the child's vertical padding pixel by pixel...
 

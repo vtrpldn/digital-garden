@@ -30,7 +30,7 @@ As you might know, we can use pseudo-elements to extend the behavior of an eleme
 
 And that can be, like, super cool. Check out the examples below, each one represents a common UI problem that a well implemented overlay can help.
 
-https://codepen.io/vtrpldn/pen/OJMmMvR default-tab=css,result
+{% codepen "OJMmMvR" "default-tab=css,result" %}
 
 Next trick!
 
@@ -42,7 +42,7 @@ One thing that responsive CSS does great is making the width of an element respo
 
 But if you also need to make the height of said div react to the browser's width, the answer isn't as obvious. And this problem is particularly visible in the situation below:
 
-https://codepen.io/vtrpldn/pen/ExPmKyq default-tab=css,result
+{% codepen "ExPmKyq" "default-tab=css,result" %}
 
 This trick works because when you use percentage on `padding` it is always relative to the parent width. So a `padding-bottom: 75%;` would give you a 4:3 aspect ratio and a `padding-bottom: %56.25;` gives you the classic 16:9 widescreen.
 
@@ -54,7 +54,7 @@ This one is a rather popular trick for when you need to add some basic functiona
 
 Here, have a look a the CSS and HTML tabs:
 
-https://codepen.io/vtrpldn/pen/QWyvNOZ default-tab=css,result
+{% codepen "QWyvNOZ" "default-tab=css,result" %}
 
 **Why it works?**
 

@@ -32,6 +32,25 @@ module.exports = function (eleventyConfig) {
     </iframe>`;
   });
 
+  eleventyConfig.addShortcode("codepen", function (id, ...args) {
+    let params = "";
+
+    if (args.length > 0) {
+      params = `?${args.join("&")}`;
+    }
+
+    return `<iframe
+    style="width:100%;
+    height:calc(300px + 8vw);"
+    scrolling="no"
+    src="https://codepen.io/vtrpldn/embed/${id}?theme-id=dark&${params}"
+    frameborder="no"
+    loading="lazy"
+    allowtransparency="true"
+    allowfullscreen="true">
+    </iframe>`;
+  });
+
   eleventyConfig.addShortcode("twitter", function (id) {
     return `<blockquote class="twitter-tweet"><a href="https://twitter.com/x/status/${id}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
   });
