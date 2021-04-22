@@ -87,6 +87,9 @@ p a {
 p a:hover {
   border-bottom: solid 1px;
 }
+p img {
+  margin-bottom: 0;
+}
 
 ul,
 ol {
@@ -124,6 +127,13 @@ article header .tags {
 }
 article header .tags a {
   margin-right: 5px;
+}
+
+iframe {
+  margin-bottom: var(--margin-base);
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
 }
 
 .postlist__item {

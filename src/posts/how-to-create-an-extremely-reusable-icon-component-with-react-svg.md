@@ -89,7 +89,7 @@ All we need is a CSS-in-JS library to act as a glue between our SVG files and ou
 
 Here, take a look. The embed space is pretty limited so feel free to click the "Open Sandbox" button and play with it for a while, just remember to come back. 🙂
 
-codesandboxEmbed cpw5j view=split
+{% codesandbox "cpw5j" "view=split"%}
 
 Pretty nice, huh? What I like the most about this approach is that after some initial setup, adding a new icon is as simple as dragging the SVG file to the icon folder. And being able to style it directly in the component props is definitely a plus.
 

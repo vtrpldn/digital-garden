@@ -16,10 +16,16 @@ module.exports = function (eleventyConfig) {
   // shortcodes
 
   // https://github.com/forem/forem/blob/c842d1a0c6718f319f167e9ec13d4d7d5d6b6d39/app/liquid_tags/codesandbox_tag.rb
-  eleventyConfig.addShortcode("codesandbox", function (id) {
+  eleventyConfig.addShortcode("codesandbox", function (id, ...args) {
+    let params = "";
+
+    if (args.length > 0) {
+      params = `?${args.join("&")}`;
+    }
+
     return `<iframe
-    src="https://codesandbox.io/embed/${id}"
-    style="width:100%; height:calc(300px + 8vw); border:0; border-radius: 4px; overflow:hidden;"
+    src="https://codesandbox.io/embed/${id}${params}"
+    style="width:100%; height:calc(300px + 8vw);"
     allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
     loading="lazy"
     sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">

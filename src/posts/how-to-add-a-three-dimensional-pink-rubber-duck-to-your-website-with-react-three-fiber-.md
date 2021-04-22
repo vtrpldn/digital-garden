@@ -25,7 +25,7 @@ You'll see how react-three-fiber makes it simple to add just a bit of 3D if you 
 
 So anyway, here's a look of what we are going to build today:
 
-codesandboxEmbed n33f2 view=preview
+{% codesandbox "n33f2" "view=preview"%}
 
 ## How to?
 
@@ -45,7 +45,7 @@ Let's talk about how these things go together.
 
 Here's the root of our example, the `App.js` component.
 
-codesandboxEmbed n33f2 view=editor module=/src/App.js
+{% codesandbox "n33f2" "view=editor" "module=/src/App.js" %}
 
 You can see that it is pretty simple, it only loads a `<Website>` component, a `<Canvas>` component and uses some stateful logic to control if the `<Canvas>` should be rendered or not.
 
@@ -59,7 +59,7 @@ Most of it is markup, the only interactive part of our website is the "Surprise"
 
 Here, have a look a the `<Website/>` component:
 
-codesandboxEmbed n33f2 view=editor module=/src/Website.js
+{% codesandbox "n33f2" "view=editor" "module=/src/Website.js" %}
 
 Note that the `setShowCanvas` is a prop that comes from `App.js`.
 
@@ -79,7 +79,7 @@ react-three-fiber makes it super easy to import objects. Let's see how by taking
 
 Take a look at the comments in the implementation below.
 
-codesandboxEmbed n33f2 view=editor module=/src/Duck.js
+{% codesandbox "n33f2" "view=editor" "module=/src/Duck.js" %}
 
 What I love the most about the react-three-fiber declarative approach to Three.js is that it makes importing objects _almost_ as simple as import images or CSS.
 
@@ -87,7 +87,7 @@ What I love the most about the react-three-fiber declarative approach to Three.j
 
 `Canvas.js` is where react-three-fiber magic happens.
 
-codesandboxEmbed n33f2 view=editor module=/src/Canvas.js
+{% codesandbox "n33f2" "view=editor" "module=/src/Canvas.js" %}
 
 A few things that this file does:
 

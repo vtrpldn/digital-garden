@@ -27,7 +27,7 @@ Be aware that most of the patterns applied here are not exclusive to React so yo
 
 Here's a demo before we move into the details:
 
-codesandboxEmbed 7opo3 view=preview module=/src/App.js
+{% codesandbox "7opo3" "view=preview" "module=/src/App.js" %}
 
 ## How to make it
 
@@ -45,7 +45,7 @@ There's a handful of techniques at play here:
 
 Have a look at the `Tooltip.css` file.
 
-codesandboxEmbed 7opo3 view=editor module=/src/Tooltip.css
+{% codesandbox "7opo3" "view=editor" "module=/src/Tooltip.css" %}
 
 You can see that half of it is styling to make the tooltip appear in different directions. A CSS preprocessor could make this code leaner but remember, we are keeping it simple.
 
@@ -66,7 +66,7 @@ Now that we understand that `Tooltip.css` handles how the tooltip looks and wher
 
 Here, have a snoop at `Tooltip.js`:
 
-codesandboxEmbed 7opo3 view=editor module=/src/Tooltip.js
+{% codesandbox "7opo3" "view=editor" "module=/src/Tooltip.js" %}
 
 Can you see how it works together with `Tooltip.css`?
 
@@ -113,7 +113,7 @@ Add a simple wrap with a some of these props and _bam_ now every hover on anythi
 
 Here's how I did it in the demo:
 
-codesandboxEmbed 7opo3 view=editor module=/src/App.js
+{% codesandbox "7opo3" "view=editor" "module=/src/App.js" %}
 
 Pretty cool, right?
 

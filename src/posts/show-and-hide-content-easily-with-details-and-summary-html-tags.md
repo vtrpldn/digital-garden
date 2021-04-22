@@ -23,7 +23,7 @@ The only problem here is that it looks rather plain and uninteresting.
 
 But nothing that a few lines of CSS can't fix! Here's how it looks with just a little bit of styling.
 
-codesandboxEmbed pel2y view=preview module=/index.html
+{% codesandbox "pel2y" "view=preview" "module=/index.html" %}
 
 Remember that you can click the "Open Sandbox" button and edit the styles yourself. I'm sure that you can make it look even nicer. 😄
 
@@ -88,11 +88,11 @@ So you can just go ahead and create a component to help you toggle stuff more co
 
 Look:
 
-codesandboxEmbed 3fjee view=editor module=/src/Collapsible.js
+{% codesandbox "3fjee" "view=editor" "module=/src/Collapsible.js" %}
 
 Then you can import that component and use it like so:
 
-codesandboxEmbed 3fjee view=split module=/src/App.js
+{% codesandbox "3fjee" "view=split" "module=/src/App.js" %}
 
 This is a great component to have on your toolbelt for when you need to implement a few accordions quickly.
 

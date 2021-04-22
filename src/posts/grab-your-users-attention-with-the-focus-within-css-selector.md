@@ -21,11 +21,11 @@ You can use the `:focus-within` selector to style the parent of a focused elemen
 
 That allows you to create some interactive form UI without a single line of JavaScript. Try the example below:
 
-codesandboxEmbed ubhp7
+{% codesandbox "ubhp7" %}
 
 This demo uses `:focus-within`, plus the `::before` pseudo-selector and some absolute positioning magic. We'll go through the details but you can check the full source below.
 
-codesandboxEmbed ubhp7 view=editor
+{% codesandbox "ubhp7" "view=editor" %}
 
 ## `:focus-within` selector + `::before` pseudo-elements + absolute positioning
 
