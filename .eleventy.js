@@ -30,6 +30,10 @@ module.exports = function (eleventyConfig) {
     return `<blockquote class="twitter-tweet"><a href="https://twitter.com/x/status/${id}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>`;
   });
 
+  eleventyConfig.addShortcode("youtube", function (id) {
+    return `<iframe src="https://www.youtube.com/embed/${id}" style="width:100%; height:calc(200px + 8vw); border:0; border-radius: 4px; overflow:hidden;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+  });
+
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
 

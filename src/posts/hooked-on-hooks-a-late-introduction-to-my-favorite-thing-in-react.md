@@ -107,7 +107,7 @@ You can check how to use both of those hooks below. You'll definitely need the a
 
 Please be aware that this post will get a little dense from now on, so feel free to save it for later or stare at this relaxing campfire for a couple minutes. Just remember to get back here when you're done.
 
-youtubeEmbed EqqpcFj8G-s
+{% youtube "EqqpcFj8G-s" %}
 
 ## Use useState() when you need to use state
 

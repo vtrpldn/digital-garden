@@ -43,7 +43,7 @@ You need to be patient, focused and keep writing. Set a small time frame for wri
 
 And whenever you feel down and think that you're not moving fast enough, remember the teachings of this funny yellow dog.
 
-youtubeEmbed Gu8YiTeU9XU
+{% youtube "Gu8YiTeU9XU" %}
 
 ## Plan your text, but not too much
 
