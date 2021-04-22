@@ -170,7 +170,7 @@ It is important to know all the tools that you have at hand!
 
 Try editing/playing/breaking the examples below:
 
-{% codesandbox yo40p %}
+{% codesandbox "yo40p" %}
 
 ---
 
