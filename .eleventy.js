@@ -13,6 +13,19 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
 
+  // shortcodes
+
+  // https://github.com/forem/forem/blob/c842d1a0c6718f319f167e9ec13d4d7d5d6b6d39/app/liquid_tags/codesandbox_tag.rb
+  eleventyConfig.addShortcode("codesandbox", function (id) {
+    return `<iframe
+    src="https://codesandbox.io/embed/${id}"
+    style="width:100%; height:calc(300px + 8vw); border:0; border-radius: 4px; overflow:hidden;"
+    allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+    loading="lazy"
+    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin">
+    </iframe>`;
+  });
+
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
 
@@ -128,7 +141,7 @@ module.exports = function (eleventyConfig) {
     // -----------------------------------------------------------------
 
     // Pre-process *.md files with: (default: `liquid`)
-    markdownTemplateEngine: "njk",
+    // markdownTemplateEngine: "njk",
 
     // Pre-process *.html files with: (default: `liquid`)
     htmlTemplateEngine: "njk",
