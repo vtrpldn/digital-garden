@@ -8,7 +8,7 @@ tags:
 layout: post
 ---
 
-I realized and did so very recently that ever since my first full-time job as a frontend engineer, I was somewhat involved or responsible for hiring new people.
+This week I realized that ever since my first full-time job as a frontend engineer, I was somewhat involved or responsible for hiring new people.
 
 And I always found hiring... Strangely rewarding? I don't know. I have this weird predisposition to deal with work like it is some kind of strategy game. Hiring feels a lot like adding reinforcements to my XCOM squad.
 
