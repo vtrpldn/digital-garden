@@ -36,7 +36,7 @@ Applicants, on the other hand, have much more at stake. Not only because applyin
 
 Which does _not_ mean you should hire people "because they want that job so badly!!! 😩", but keeping that asymmetry in mind will help you stay empathetic and treat candidates with respect.
 
-## Be super specific about what you want, what you can offer and how you hire
+## Be super specific about what you want, what you can offer, and how you hire
 
 Hiring takes a lot of mental energy. Replying dozens of emails answering the same question about benefits and stipends over and over is not an intelligent use of that energy. So do yourself a favour and write a comprehensive job listing.
 
