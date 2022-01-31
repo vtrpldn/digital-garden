@@ -1,6 +1,6 @@
 ---
 title: How to Overcome Your TypeScriptoPhobia
-date: 2022-02-02
+date: 2022-01-31
 tags:
   - typescript
   - codenewbie
@@ -10,7 +10,7 @@ layout: post
 
 Let's face it, TypeScript is [kinda scary](https://stackoverflow.com/questions/57051334/how-to-understand-complicated-typescript-generic-types).
 
-![scary typescript example](/img/scary-typescript-example.png)
+![scary typescript example](https://paladini.dev/img/scary-typescript-example.png)
 
 Not too long ago, I used to dread the idea of having to learn and work with it every day.
 
@@ -118,7 +118,7 @@ As your project grows, TypeScript makes it harder for you to shoot yourself in t
 
 You know, your vanilla JS codebase might look cute and harmless now in its infancy, but you know that if left unattended for too long (or feed it after midnight), it will start to go wild.
 
-![gizmo from gremlins](/img/gizmo.jpg)
+![gizmo from gremlins](https://paladini.dev/img/gizmo.jpg)
 
 It might be challenging to picture that scenario if you've never got close to a vast JS-only project, but trust me, things get _messy_.
 
