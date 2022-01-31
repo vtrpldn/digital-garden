@@ -8,7 +8,7 @@ tags:
 layout: post
 ---
 
-Let's face it, TypeScript is kinda scary.
+Let's face it, TypeScript is [kinda scary](https://stackoverflow.com/questions/57051334/how-to-understand-complicated-typescript-generic-types).
 
 ![scary typescript example](/img/scary-typescript-example.png)
 
