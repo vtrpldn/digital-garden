@@ -10,12 +10,11 @@ layout: post
 
 Let's face it, TypeScript is kinda scary.
 
-[scary example]
-// https://stackoverflow.com/questions/57051334/how-to-understand-complicated-typescript-generic-types
+![scary typescript example](/img/scary-typescript-example.png)
 
-Not too long ago, I used to dread the idea of having to learn and work with TypeScript every day.
+Not too long ago, I used to dread the idea of having to learn and work with it every day.
 
-I'd log off after a busy day at work and have a recurring nightmare where a mob of angry engineers forced me to either use it or face a slow, painful demise. I also couldn't run or fight in the dream; my punches were super slow, and all my teeth would crumble and fall...
+I'd log off after a busy day at work and have a recurring nightmare where a mob of angry engineers forced me to either use it or face a slow, painful demise. I also couldn't run or fight in the dream, my punches were super slow, and all my teeth would crumble and fall...
 
 Alright, I'm deviating here, but you get the idea.
 
@@ -119,13 +118,15 @@ As your project grows, TypeScript makes it harder for you to shoot yourself in t
 
 You know, your vanilla JS codebase might look cute and harmless now in its infancy, but you know that if left unattended for too long (or feed it after midnight), it will start to go wild.
 
-[gizmo & gremlin]
+![gizmo from gremlins](/img/gizmo.jpg)
 
 It might be challenging to picture that scenario if you've never got close to a vast JS-only project, but trust me, things get _messy_.
 
 I like TypeScript because it makes your codebase "tighter" in a good way.
 
 It takes away some of that crazy flexibility and permissiveness of JavaScript and creates an environment where you _must_ think a little bit deeper about how you'll organize your data.
+
+> After you put in the effort of learning TS, JS codebases feel like poorly built toy that does work, but rattles a lot when you pick it up and shake it close to your ear. You just don't trust it as much.
 
 Every time you write and use a new type, you create a new constrain that prevents you from making bad decisions. And consequently, the trust you have in your own code increases.
 
